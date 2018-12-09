@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packets>
+    <field name="campo1" size="1" description="field_flag"/>
+	<if conditions="$campo1=1" >
+		 <field name="campo2" size="3" description="optional_field"/>
+	</if>
+    <field name="campo3" size="1" description="last_field"/>
+</packets>
